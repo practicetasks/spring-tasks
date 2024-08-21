@@ -3,7 +3,7 @@
 Проект `Catsgram` растёт, и к нему появилось ещё одно требование — сообщения об ошибках должны отображаться в едином
 формате:
 
-Склонируйте [репозиторий](https://github.com/practicetasks/catsgram/tree/exception-handlers)
+Склонируйте [репозиторий](https://github.com/practicetasks/catsgram/tree/error-handler_add-handling)
 
 Создайте исключение `IncorrectParameterException`, унаследовав его от `RuntimeException`. В исключение добавьте поле
 `parameter`.
@@ -13,7 +13,7 @@
 значение
 page меньше нуля, должно быть проброшено исключение, в котором поле `parameter` содержит значение `“page”`.
 
-В пакет `kz.runtime.catsgram.controller` добавьте класс `ErrorHandler` — обработчик ошибок. При ошибках должен
+В пакет `com.practice.catsgram.controller` добавьте класс `ErrorHandler` — обработчик ошибок. При ошибках должен
 возвращаться объект `ErrorResponse`. Добавьте логику по обработке исключений:
 
 - Для исключений `PostNotFoundException` и `UserNotFoundException` должен возвращаться код ответа **404** (_Not found_),
