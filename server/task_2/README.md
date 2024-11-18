@@ -28,11 +28,17 @@ rm -r logs/test/java
 
 **c)**
 ```shell
+cd ..
+rm logs/test/java -r
+```
+
+**d)**
+```shell
 cd /logs/test
 rm java -r
 ```
 
-**d)**
+**e)**
 ```shell
 cd ../test/java
 rm hello.java example.java
