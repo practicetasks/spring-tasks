@@ -8,7 +8,6 @@
 * В корневом каталоге папки `libs` и `logs`, а также файлы `settings.txt` и `read.me`.
 * В папке `logs` три директории: `2021`, `2022` и `test`.
 * В папке `test` лежат папки `java` и `resources`.
-* Папка resources пустая.
 * В папке `java` только два файла — `hello.java` и `example.java`.
 
 Вы находитесь в папке `2021`. Как удалить директорию `java` и файлы `hello.java` и `example.java`?
